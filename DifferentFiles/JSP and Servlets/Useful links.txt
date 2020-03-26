@@ -1,0 +1,13 @@
+Полезные ссылки
+
+
+Передача данных из сервлета в JSP
+https://metanit.com/java/javaee/3.8.php  
+
+
+установка и настройка TomCat сервер
+https://o7planning.org/ru/11583/installing-and-configuring-tomcat-server  
+
+
+Деплой веб-приложения на Tomcat в IntelliJ IDEA Community Edition
+https://www.shortn0tes.com/2017/01/intellij-idea-community-edition-tomcat.html

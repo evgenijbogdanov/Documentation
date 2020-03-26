@@ -1,0 +1,18 @@
+	
+	Передача управления от сервелта к диспетчеру запросов:
+
+		RequestDispatcher requestDispatcher = req.getRequestDispatcher("result.jsp");  // result.jsp - файл, который будет обрабатывать результат работы сервлета
+		requestDispatcher.forward(req, resp); // передача управления диспетчеру запросов, который дальше обрабатывает JSP и отдает пользователю
+	
+	
+	Установка аттрибутов в объект HttpServletRequest:
+	
+		req.setAttribute("st", "I'v got this string from Servlet"); 
+		req.setAttribute("userCountry", "France");
+		
+		
+	Получение данных из HTTP запроса:
+	
+		 String fromForm = req.getParameter("country");  // получение значение из формы, а именно из значения country (это имя выпадающего списка)
+	
+	
